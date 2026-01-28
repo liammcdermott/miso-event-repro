@@ -5,7 +5,6 @@ module Main where
 import Miso
 import Miso.Html
 import Miso.Lens (Lens, lens)
-import Miso.String (ms)
 
 #ifdef WASM
 foreign export javascript "hs_start" main :: IO ()
